@@ -17,10 +17,12 @@ Algo Steps -
 </h2>
 <h3>
 
-1. Run a while loop till when curr_possible is less than n
+1. While there are augmenting paths from source to sink keep on adding its capacity to net flow
 
-2. In the while loop if ind is less than 0 and we can use array element to increase curr_possible do it else
+2. Find Augmenting paths using bfs and store the parents to follow back the path and update the capacity
 
-3. We increment ans and "patch" a new element curr_possible+1 such curr_possible becomes curr_possible*2+1
+3. Update the capaciy 2D array 
+
+4. Keep on repeating steps 2 and 3 till we find no augmenting path and then we get our answer maximum flow
 
 </h3>
