@@ -1,18 +1,6 @@
 # Maximum Flow
-<!-- 
-<h2>
-Observation
-</h2>
-<h3>
-If we can reach all numbers upto n then using any number k we reach all numbers upto n+k 
-</h3> -->
-
-
-
-
 
 <h2>
-
 Algo Steps -
 </h2>
 <h3>
